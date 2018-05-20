@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rpm",
+  "name": "RP Market",
+  "description": "this mod add one roleplay eco.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Chokearth"],
+  "credits": "Thanks to me :D",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

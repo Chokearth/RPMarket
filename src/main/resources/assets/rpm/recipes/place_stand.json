@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":[
+    "S",
+    "T"
+  ],
+  "key": {
+    "T": {
+      "item":"rpm:stand_storage"
+    },
+    "S": {
+      "item":"rpm:stand_sell"
+    }
+  },
+  "result":{
+    "item": "rpm:place_stand",
+    "count": 1
+  }
+}

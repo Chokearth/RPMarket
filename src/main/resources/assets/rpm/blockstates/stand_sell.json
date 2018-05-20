@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "normal": { "model": "rpm:stand_sell"},
+    "facing=north": { "model": "rpm:stand_sell"},
+    "facing=east": { "model": "rpm:stand_sell", "y":90},
+    "facing=south": { "model": "rpm:stand_sell", "y":180},
+    "facing=west": { "model": "rpm:stand_sell", "y":270}
+  }
+}
