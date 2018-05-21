@@ -15,11 +15,11 @@
     },
     "O":{
       "item":"minecraft:wooden_slab",
-      "data": 2
+      "data": 4
     }
   },
   "result":{
-    "item": "rpm:stand_storage",
+    "item": "rpm:stand_storage_acacia",
     "count": 1
   }
 }

@@ -1,6 +1,13 @@
-tile.stand_sell.name=Sell display
+tile.stand_sell_oak.name=Oak Sell display
+tile.stand_sell_spruce.name=Spruce Sell display
+tile.stand_sell_birch.name=Birch Sell display
+tile.stand_sell_jungle.name=Jungle Sell display
+tile.stand_sell_acacia.name=Acacia Sell display
+tile.stand_sell_darkoak.name=Darkoak Sell display
+
 tile.stand_storage.name=Sell storage
 item.place_stand.name=Stand
+
 item.money_bronze.name=Bronze Britz
 item.money_silver.name=Silver Britz
 item.money_gold.name=Gold Britz

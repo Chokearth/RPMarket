@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "SOS",
+    "SOS",
+    "SOS"
+  ],
+  "key": {
+    "O":{
+      "item":"minecraft:wooden_slab",
+      "data": 4
+    },
+    "S":{
+      "item":"minecraft:stick"
+    }
+  },
+  "result":{
+    "item": "rpm:stand_sell_acacia",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "normal": { "model": "rpm:stand_sell_darkoak"},
+
+    "facing=north": { "model": "rpm:stand_sell_darkoak"},
+    "facing=east": { "model": "rpm:stand_sell_darkoak", "y":90},
+    "facing=south": { "model": "rpm:stand_sell_darkoak", "y":180},
+    "facing=west": { "model": "rpm:stand_sell_darkoak", "y":270}
+  }
+}

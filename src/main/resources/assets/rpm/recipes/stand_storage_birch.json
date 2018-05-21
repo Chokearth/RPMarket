@@ -1,0 +1,25 @@
+{
+  "type":"minecraft:crafting_shaped",
+
+  "pattern": [
+    "NON",
+    "OCO",
+    "NON"
+  ],
+  "key": {
+    "N":{
+      "item":"minecraft:iron_ingot"
+    },
+    "C":{
+      "item":"minecraft:chest"
+    },
+    "O":{
+      "item":"minecraft:wooden_slab",
+      "data": 2
+    }
+  },
+  "result":{
+    "item": "rpm:stand_storage_birch",
+    "count": 1
+  }
+}

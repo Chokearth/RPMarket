@@ -2,8 +2,8 @@
 	"parent": "block/block",
 	"__comment": "Designed by Cm@BlackSpigotMC with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "blocks/planks_birch",
-		"planks": "blocks/planks_birch",
+		"particle": "null",
+		"planks": "null",
 		"iron": "blocks/anvil_base"
 	},
 	"elements": [

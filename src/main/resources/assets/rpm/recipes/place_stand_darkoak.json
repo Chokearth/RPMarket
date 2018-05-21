@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":[
+    "S",
+    "T"
+  ],
+  "key": {
+    "T": {
+      "item":"rpm:place_stand_darkoak"
+    },
+    "S": {
+      "item":"rpm:place_stand_darkoak"
+    }
+  },
+  "result":{
+    "item": "rpm:place_stand_darkoak",
+    "count": 1
+  }
+}

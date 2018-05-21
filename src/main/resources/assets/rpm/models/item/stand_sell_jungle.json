@@ -1,5 +1,5 @@
 {
-  "parent": "rpm:block/stand_sell",
+  "parent": "rpm:block/stand_sell_jungle",
 
   "display": {
     "firstperson_righthand": {

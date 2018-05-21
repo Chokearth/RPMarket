@@ -9,14 +9,14 @@
   "key": {
     "O":{
       "item":"minecraft:wooden_slab",
-      "data": 2
+      "data": 3
     },
     "S":{
       "item":"minecraft:stick"
     }
   },
   "result":{
-    "item": "rpm:stand_sell",
+    "item": "rpm:stand_sell_jungle",
     "count": 1
   }
 }

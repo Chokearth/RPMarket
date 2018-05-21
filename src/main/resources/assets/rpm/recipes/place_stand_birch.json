@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":[
+    "S",
+    "T"
+  ],
+  "key": {
+    "T": {
+      "item":"rpm:place_stand_birch"
+    },
+    "S": {
+      "item":"rpm:place_stand_birch"
+    }
+  },
+  "result":{
+    "item": "rpm:place_stand_birch",
+    "count": 1
+  }
+}

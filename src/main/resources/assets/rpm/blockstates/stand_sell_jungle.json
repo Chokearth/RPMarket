@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "normal": { "model": "rpm:stand_sell_jungle"},
+
+    "facing=north": { "model": "rpm:stand_sell_jungle"},
+    "facing=east": { "model": "rpm:stand_sell_jungle", "y":90},
+    "facing=south": { "model": "rpm:stand_sell_jungle", "y":180},
+    "facing=west": { "model": "rpm:stand_sell_jungle", "y":270}
+  }
+}

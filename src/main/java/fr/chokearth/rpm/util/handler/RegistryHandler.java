@@ -1,6 +1,7 @@
 package fr.chokearth.rpm.util.handler;
 
 import fr.chokearth.rpm.Main;
+import fr.chokearth.rpm.config.MainConfigFile;
 import fr.chokearth.rpm.init.BlockInit;
 import fr.chokearth.rpm.init.ItemInit;
 import fr.chokearth.rpm.util.inter.IHasModel;
@@ -9,6 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 
@@ -37,8 +39,9 @@ public class RegistryHandler {
                 ((IHasModel)block).registerModels();
     }
 
-    public static void preInitRegistries(){
+    public static void preInitRegistries(FMLPreInitializationEvent e){
         NetworkHandler.packetInit();
+        MainConfigFile.preInitConfig(e);
     }
 
     public static void initRegistries(){

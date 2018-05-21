@@ -1,0 +1,6 @@
+{
+	"parent": "rpm:item/place_stand",
+	"textures": {
+		"planks": "blocks/planks_big_oak"
+	}
+}
