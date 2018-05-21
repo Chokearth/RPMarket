@@ -79,6 +79,9 @@ public class ContainerStandSellOwner extends Container {
             else if (this.tileEntity.getItemNb(slotId) == 0 && haveItemStack(player.inventory.getItemStack(), slotId)){
                 this.tileEntity.setInventorySlotContents(slotId, player.inventory.getItemStack().copy());
             }
+            else if (this.tileEntity.getItemNb(slotId) != 0 && this.tileEntity.getStackInSlot(slotId).getItem().getUnlocalizedName().equals(player.inventory.getItemStack().getItem().getUnlocalizedName())){
+                this.tileEntity.setInventorySlotContents(slotId, player.inventory.getItemStack().copy());
+            }
         }
         this.tileEntity.markDirty();
         return super.slotClick(slotId, dragType, clickTypeIn, player);

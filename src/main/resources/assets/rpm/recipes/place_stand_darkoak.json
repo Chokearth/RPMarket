@@ -7,10 +7,10 @@
   ],
   "key": {
     "T": {
-      "item":"rpm:place_stand_darkoak"
+      "item":"rpm:stand_storage_darkoak"
     },
     "S": {
-      "item":"rpm:place_stand_darkoak"
+      "item":"rpm:stand_sell_darkoak"
     }
   },
   "result":{

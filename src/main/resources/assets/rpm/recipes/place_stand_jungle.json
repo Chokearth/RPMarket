@@ -7,10 +7,10 @@
   ],
   "key": {
     "T": {
-      "item":"rpm:place_stand_jungle"
+      "item":"rpm:stand_storage_jungle"
     },
     "S": {
-      "item":"rpm:place_stand_jungle"
+      "item":"rpm:stand_sell_jungle"
     }
   },
   "result":{

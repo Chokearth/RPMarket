@@ -7,10 +7,10 @@
   ],
   "key": {
     "T": {
-      "item":"rpm:place_stand_acacia"
+      "item":"rpm:stand_storage_acacia"
     },
     "S": {
-      "item":"rpm:place_stand_acacia"
+      "item":"rpm:stand_sell_acacia"
     }
   },
   "result":{

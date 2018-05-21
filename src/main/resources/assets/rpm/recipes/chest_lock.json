@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shaped",
+
+  "pattern":[
+    "WWW",
+    "WGW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "type":"forge:ore_dict",
+      "ore":"plankWood"
+    },
+    "G": {
+      "item":"minecraft:gold_ingot"
+    }
+  },
+  "result":{
+    "item": "rpm:chest_lock",
+    "count": 1
+  }
+}

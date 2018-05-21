@@ -1,0 +1,11 @@
+{
+  "parent": "block/orientable",
+  "textures":{
+    "up": "rpm:blocks/chest_lock/up",
+    "down": "rpm:blocks/chest_lock/down",
+    "north": "rpm:blocks/chest_lock/north",
+    "east": "rpm:blocks/chest_lock/east",
+    "south": "rpm:blocks/chest_lock/south",
+    "west": "rpm:blocks/chest_lock/west"
+  }
+}

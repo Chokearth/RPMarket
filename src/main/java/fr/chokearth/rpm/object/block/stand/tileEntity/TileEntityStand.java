@@ -12,6 +12,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.NonNullList;
+import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -70,6 +71,16 @@ public class TileEntityStand extends TileEntity implements IInventory{
         }
 
         setReste();
+
+        if (this.getReste() == this.getInventoryStackLimit()){
+            world.getBlockState(pos).getBlock().setHardness(2.0f);
+            world.getBlockState(new BlockPos(pos.getX(), pos.getY()-1, pos.getZ())).getBlock().setHardness(2.0f);
+        }
+        else{
+            world.getBlockState(pos).getBlock().setBlockUnbreakable();
+            world.getBlockState(new BlockPos(pos.getX(), pos.getY()-1, pos.getZ())).getBlock().setBlockUnbreakable();
+        }
+
         this.markDirty();
         this.updateContainingBlockInfo();
     }

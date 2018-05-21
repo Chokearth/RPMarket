@@ -1,6 +1,7 @@
 package fr.chokearth.rpm.init;
 
 import fr.chokearth.rpm.Main;
+import fr.chokearth.rpm.object.block.chestLock.ChestLockBlock;
 import fr.chokearth.rpm.object.block.stand.StandSellBlock;
 import fr.chokearth.rpm.object.block.stand.StandStorageBlock;
 import net.minecraft.block.Block;
@@ -26,4 +27,6 @@ public class BlockInit {
     public static final Block STAND_STORAGE_BLOCK_JUNGLE = new StandStorageBlock("stand_storage_jungle", Material.WOOD, Main.RPMTAB);
     public static final Block STAND_STORAGE_BLOCK_ACACIA = new StandStorageBlock("stand_storage_acacia", Material.WOOD, Main.RPMTAB);
     public static final Block STAND_STORAGE_BLOCK_DARKOAK = new StandStorageBlock("stand_storage_darkoak", Material.WOOD, Main.RPMTAB);
+
+    public static final Block CHEST_LOCK = new ChestLockBlock("chest_lock", Main.RPMTAB);
 }

@@ -7,10 +7,10 @@
   ],
   "key": {
     "T": {
-      "item":"rpm:place_stand_birch"
+      "item":"rpm:stand_storage_birch"
     },
     "S": {
-      "item":"rpm:place_stand_birch"
+      "item":"rpm:stand_sell_birch"
     }
   },
   "result":{
